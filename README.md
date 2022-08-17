@@ -15,13 +15,14 @@ bring about that end state.
 
 - A deployed OpenShift cluster via IPI or UPI
     - The IPI installer will create all the proper components needed to run an OpenShift cluster.
-    - When using UPI the cluster will need access to the following services:
-        - DNS
-	- Storage 
-	- Configure DHCP.
-	- Provision required load balancers.
-	- Configure the ports for your machines.
-	- Ensure network connectivity.
+
+- When using UPI the cluster will need access to the following services:
+    - DNS
+    - Storage 
+    - Configure DHCP.
+    - Provision required load balancers.
+    - Configure the ports for your machines.
+    - Ensure network connectivity.
 
 
 ## How to deploy
